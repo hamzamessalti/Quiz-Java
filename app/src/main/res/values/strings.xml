@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Quiz Java</string>
+    <string name="button">Button</string>
+
+    <string name="try_again">try again</string>
+    <string name="next">Next</string>
+    <string name="question">Question</string>
+    <string name="result">result</string>
+    <string name="enter_your_name">enter your name</string>
+
+    <string-array name="question_array">
+        <item>1- Which operator can be used to compare two values?</item>
+        <item>2- How do you create a method in Java?</item>
+        <item>3- Which keyword is used to create a class in Java?</item>
+        <item>4- Which operator is used to multiply numbers?</item>
+        <item>5- How do you start writing a while loop in Java?</item>
+        <item>6- Which statement is used to stop a loop?</item>
+        <item>7- Which keyword is used to return a value inside a method?</item>
+    </string-array>
+
+
+    <string name="q1">1- Which operator can be used to compare two values?</string>
+    <string name="q1_an1">></string>
+    <string name="q1_an2">=</string>
+    <string name="q1_an3">>=</string>
+    <string name="q1_can4">==</string>
+
+    <string name="q2">2- How do you create a method in Java?</string>
+    <string name="q2_can1">methodName()</string>
+    <string name="q2_an2"> methodName[]</string>
+    <string name="q2_an3"> methodName.</string>
+    <string name="q2_an4">(methodName)</string>
+
+    <string name="q3">3- Which keyword is used to create a class in Java?</string>
+    <string name="q3_an1">class()</string>
+    <string name="q3_can2">class</string>
+    <string name="q3_an3">className</string>
+    <string name="q3_an4">MyClass</string>
+
+    <string name="q4">4- Which operator is used to multiply numbers?</string>
+    <string name="q4_an1">%</string>
+    <string name="q4_an2">#</string>
+    <string name="q4_can3">*</string>
+    <string name="q4_an4">x</string>
+
+    <string name="q5">5- How do you start writing a while loop in Java?</string>
+    <string name="q5_an1"> x > y while {</string>
+    <string name="q5_an2"> while x > y {</string>
+    <string name="q5_an3"> while x > y:</string>
+    <string name="q5_can4">while (x > y)</string>
+
+    <string name="q6">6- Which statement is used to stop a loop?</string>
+    <string name="q6_can1">break</string>
+    <string name="q6_an2">return</string>
+    <string name="q6_an3">stop</string>
+    <string name="q6_an4">exit</string>
+
+    <string name="q7">7- Which keyword is used to return a value inside a method?</string>
+    <string name="q7_an1">void</string>
+    <string name="q7_an2">get</string>
+    <string name="q7_can3">return</string>
+    <string name="q7_an4">break</string>
+
+    <string name="q8">8-Choose the correct loop</string>
+    <string name="q8_an1">switch</string>
+    <string name="q8_can2">for</string>
+    <string name="q8_can3">While</string>
+    <string name="q8_an4">if</string>
+
+
+
+
+</resources>

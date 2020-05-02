@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="radio_buttons">
+        <item name="android:textSize">@dimen/radioButtons_textSize</item>
+        <item name="android:background">@drawable/answer_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/radioButtons_marginTop</item>
+        <item name="android:layout_marginLeft">@dimen/radioButtons_marginLeft_marginRight</item>
+        <item name="android:layout_marginRight">@dimen/radioButtons_marginLeft_marginRight</item>
+        <item name="android:paddingTop">@dimen/radioButtons_paddingTop_paddingBottom</item>
+        <item name="android:paddingBottom">@dimen/radioButtons_paddingTop_paddingBottom</item>
+    </style>
+
+
+    <style name="button_result">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/button_textSize</item>
+        <item name="android:background">@drawable/result_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <style name="checkBox">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/checkBox_textSize</item>
+     </style>
+
+
+
+</resources>

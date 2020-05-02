@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/question_background"
+            android:padding="6dp"
+            android:text="@string/q1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio1"
+                style="@style/radio_buttons"
+                android:text="@string/q1_an1" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                style="@style/radio_buttons"
+                android:text="@string/q1_an2" />
+
+            <RadioButton
+                android:id="@+id/radio3"
+                style="@style/radio_buttons"
+                android:text="@string/q1_an3" />
+
+            <RadioButton
+                android:id="@+id/radio4"
+                style="@style/radio_buttons"
+                android:text="@string/q1_can4" />
+        </RadioGroup>
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:onClick="nextQuestionAndAnswers"
+            android:text="@string/next"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/q8"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox1"
+                style="@style/checkBox"
+                android:text="@string/q8_an1" />
+
+            <CheckBox
+                android:id="@+id/checkbox2"
+                style="@style/checkBox"
+                android:text="@string/q8_can2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox3"
+                style="@style/checkBox"
+                android:text="@string/q8_can3" />
+
+            <CheckBox
+                android:id="@+id/checkbox4"
+                style="@style/checkBox"
+                android:text="@string/q8_an4" />
+        </LinearLayout>
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            tools:text="teset" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:onClick="again"
+                android:text="@string/try_again"
+                android:textSize="20sp" />
+
+            <Button
+                style="@style/button_result"
+                android:onClick="result"
+                android:text="@string/result" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

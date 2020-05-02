@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="radioButtons_paddingTop_paddingBottom">8dp</dimen>
+    <dimen name="radioButtons_marginLeft_marginRight">46dp</dimen>
+    <dimen name="radioButtons_marginTop">16dp</dimen>
+    <dimen name="radioButtons_textSize">20sp</dimen>
+
+    <dimen name="button_margin">16dp</dimen>
+    <dimen name="button_textSize">20sp</dimen>
+    <dimen name="button_width">0dp</dimen>
+
+    <dimen name="checkBox_textSize">24sp</dimen>
+</resources>
